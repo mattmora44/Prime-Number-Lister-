@@ -3,10 +3,10 @@
 using namespace std;
 int main(){
 	//get input 
-	int max = -1;
-	int counter = 0;
-	while (max < 1){
-		cout <<"Enter max number: ";
+	unsigned long max = 0;
+	unsigned long counter = 0;
+	while (max <= 0 ){
+		cout <<"Enter max number (up to 4,294,967,295): ";
 		cin >> max;
 	}
 	cout <<"Prime numbers up to "<<max<<":\n";
